@@ -7423,10 +7423,7 @@ Change functions to static calls, so composer can autoload them
 Remove includes (include, include_once, require, require_once) from source
 
 ```diff
- // Comment before require
 -include 'somefile.php';
-+
- // Comment after require
 ```
 
 <br><br>
